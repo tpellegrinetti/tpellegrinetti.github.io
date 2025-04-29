@@ -9,7 +9,7 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://tpellegrinetti.github.io/publications/
 
   - title: "Talks"
     url: /talks/    
