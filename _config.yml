@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Thierry Pellegrinetti / Bioinformatician"
+title                    : "Thierry Pellegrinetti"
 title_separator          : "-"
 name                     : &name "Thierry Pellegrinetti"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "tpellegrinetti/tpellegrinetti.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/54033509.jfif"
+  avatar           : "54033509.jfif"
   name             : "Thierry Pellegrinetti"
   pronouns         : # example: "He/Him"  
   bio              : "Short biography for the left-hand sidebar"
