@@ -22,7 +22,7 @@ repository               : "tpellegrinetti/tpellegrinetti.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/foto.png"
+  avatar           : "https://pbs.twimg.com/profile_images/1118684140394696704/yn6CqHqK_400x400.jpg"
   name             : "Thierry Pellegrinetti"
   pronouns         : # example: "He/Him"  
   bio              : "I am a dedicated bioinformatician striving to advance microbiome research"
