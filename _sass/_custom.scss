@@ -341,7 +341,7 @@ html[data-theme="dark"] .profile-button--primary:hover {
   display: block;
   width: 100%;
   margin: 0;
-  filter: grayscale(1) contrast(1.04);
+  filter: saturate(0.92) contrast(1.03);
 }
 
 .profile-portrait figcaption {
@@ -1209,7 +1209,7 @@ html[data-theme="dark"] .profile-button--primary:hover {
 .author__avatar img {
   border: 0;
   box-shadow: 0 12px 30px rgba(11, 59, 60, 0.14);
-  filter: grayscale(1);
+  filter: saturate(0.92) contrast(1.03);
 }
 
 .page__footer {

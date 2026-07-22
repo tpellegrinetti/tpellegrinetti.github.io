@@ -33,7 +33,7 @@ redirect_from:
         <span></span><span></span><span></span><span></span>
       </div>
       <div class="profile-portrait__frame">
-        <img src="/images/foto.jpg" alt="Portrait of Thierry Pellegrinetti" width="400" height="400">
+        <img src="/images/thierry-pellegrinetti-2026.jpg" alt="Portrait of Thierry Pellegrinetti" width="890" height="883">
       </div>
       <figcaption>
         <span>Postdoctoral researcher</span>
@@ -145,7 +145,7 @@ redirect_from:
       <p>My research sits at the intersection of microbial ecology, bioinformatics, and environmental science. I work across biological scales—from genes and genomes to communities and ecosystems—and across international collaborations linking Brazil and Canada.</p>
       <p>I am especially interested in analyses that remain biologically honest: methods that expose uncertainty, software that others can reuse, and visualisations that make complex systems easier to reason about.</p>
       <div class="profile-about__links">
-        <a class="profile-button profile-button--primary" href="mailto:thierry-alexandre.pellegrinetti.1@ulaval.ca">Start a conversation</a>
+        <a class="profile-button profile-button--primary" href="mailto:tpellegrinetti@usp.br">Start a conversation</a>
         <a class="profile-button" href="http://lattes.cnpq.br/3793742234896496" target="_blank" rel="noopener noreferrer">Academic CV</a>
       </div>
     </div>
