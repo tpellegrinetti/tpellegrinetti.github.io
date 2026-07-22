@@ -2,7 +2,7 @@
 permalink: /
 layout: splash
 title: "Bioinformatics & Microbial Ecology"
-description: "Postdoctoral researcher at Université Laval using bioinformatics, ecogenomics, and multi-omics to understand microbiomes across plant, soil, aquatic, and insect systems."
+description: "Postdoctoral researcher at CENA-USP using bioinformatics, ecogenomics, and multi-omics to understand microbiomes across plant, soil, aquatic, and insect systems."
 author_profile: false
 redirect_from:
   - /about/
@@ -14,7 +14,7 @@ redirect_from:
     <div class="profile-hero__copy">
       <p class="eyebrow">Bioinformatics <span>×</span> Microbial ecology</p>
       <h1 id="hero-title">Reading microbial worlds,<br><em>one genome at a time.</em></h1>
-      <p class="profile-hero__lead">I am Thierry Pellegrinetti, a postdoctoral researcher at Université Laval. I develop computational strategies that turn complex microbiome data into ecological insight—from the rhizosphere to aquatic ecosystems and insect symbioses.</p>
+      <p class="profile-hero__lead">I am Thierry Pellegrinetti, a postdoctoral researcher at the Center for Nuclear Energy in Agriculture, University of São Paulo (CENA-USP). I develop computational strategies that turn complex microbiome data into ecological insight—from the rhizosphere to aquatic ecosystems and insect symbioses.</p>
       <div class="profile-hero__actions">
         <a class="profile-button profile-button--primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
         <a class="profile-button" href="/publications/">View publications <span aria-hidden="true">↗</span></a>
@@ -37,7 +37,7 @@ redirect_from:
       </div>
       <figcaption>
         <span>Postdoctoral researcher</span>
-        <strong>Université Laval · Québec City</strong>
+        <strong>CENA-USP · University of São Paulo</strong>
       </figcaption>
     </figure>
   </section>
@@ -142,7 +142,7 @@ redirect_from:
       <h2>Ecological questions.<br>Computational answers.</h2>
     </div>
     <div class="profile-about__copy">
-      <p>My research sits at the intersection of microbial ecology, bioinformatics, and environmental science. I work across biological scales—from genes and genomes to communities and ecosystems—and across international collaborations linking Brazil and Canada.</p>
+      <p>My research sits at the intersection of microbial ecology, bioinformatics, and environmental science. Based at CENA-USP in Piracicaba, I work across biological scales—from genes and genomes to communities and ecosystems—and through international scientific collaborations.</p>
       <p>I am especially interested in analyses that remain biologically honest: methods that expose uncertainty, software that others can reuse, and visualisations that make complex systems easier to reason about.</p>
       <div class="profile-about__links">
         <a class="profile-button profile-button--primary" href="mailto:tpellegrinetti@usp.br">Start a conversation</a>
