@@ -44,6 +44,9 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
+      {% if author.lattes %}
+        <li><a href="{{ author.lattes }}"><i class="fas fa-fw fa-id-card icon-pad-right" aria-hidden="true"></i>Lattes CV</a></li>
+      {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
       {% endif %}

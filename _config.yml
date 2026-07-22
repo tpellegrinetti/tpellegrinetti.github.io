@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "en-CA"
 site_theme               : "default"
 title                    : "Thierry Pellegrinetti"
 title_separator          : "-"
 name                     : &name "Thierry Pellegrinetti"
-description              : &description "personal description"
+description              : &description "Bioinformatician and microbial ecologist studying how microbiomes shape plant, soil, aquatic, and insect systems."
 url                      : https://tpellegrinetti.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tpellegrinetti/tpellegrinetti.github.io/"
@@ -22,18 +22,19 @@ repository               : "tpellegrinetti/tpellegrinetti.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://pbs.twimg.com/profile_images/1118684140394696704/yn6CqHqK_400x400.jpg"
+  avatar           : "thierry-pellegrinetti-2026.jpg"
   name             : "Thierry Pellegrinetti"
   pronouns         : # example: "He/Him"  
-  bio              : "I am a dedicated bioinformatician striving to advance microbiome research"
+  bio              : "Bioinformatician and microbial ecologist turning complex community data into ecological insight."
   location         : "Quebec City, QC, Canada"
   employer         : "Université Laval"
   uri              : # URL
-  email            : "thierry.pellegrinetti@hotmail.com" 
+  email            : "tpellegrinetti@usp.br"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=OZYSiosAAAAJ&hl=pt-BR&oi=ao"
+  lattes           : "http://lattes.cnpq.br/3793742234896496"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0001-9386-6273"
   semantic         : # URL
@@ -59,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "thierry-pellegrinetti"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -67,7 +68,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "https://x.com/tpellegrinetti"
+  twitter          : "tpellegrinetti"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -88,7 +89,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -118,7 +119,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -131,18 +132,23 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "tpellegrinetti"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og-thierry-pellegrinetti.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Thierry Alexandre Pellegrinetti"
+  links:
+    - "https://scholar.google.com/citations?user=OZYSiosAAAAJ&hl=pt-BR&oi=ao"
+    - "http://lattes.cnpq.br/3793742234896496"
+    - "https://orcid.org/0000-0001-9386-6273"
+    - "https://www.linkedin.com/in/thierry-pellegrinetti/"
+    - "https://github.com/tpellegrinetti"
 
 
 # Analytics
@@ -178,11 +184,16 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
   - tmp
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
   - vendor
 keep_files:
   - .git
