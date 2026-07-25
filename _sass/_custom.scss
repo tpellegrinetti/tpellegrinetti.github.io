@@ -2375,7 +2375,7 @@ html[data-theme="dark"] .academic-research__grid article {
   background: var(--signal);
 }
 
-.academic-hero__statement {
+.academic-hero__copy > p.academic-hero__statement {
   max-width: 680px;
   margin: 0;
   color: #202826;
@@ -2816,7 +2816,7 @@ html[data-theme="dark"] .academic-research__grid article {
     width: calc(100% - 2.7rem);
   }
 
-  .academic-hero__statement {
+  .academic-hero__copy > p.academic-hero__statement {
     max-width: 430px;
     font-size: clamp(1.3rem, 5vw, 1.75rem);
   }
@@ -2919,7 +2919,7 @@ html[data-theme="dark"] .academic-research__grid article {
     font-size: 0.52rem;
   }
 
-  .academic-hero__statement {
+  .academic-hero__copy > p.academic-hero__statement {
     font-size: clamp(1.18rem, 5.4vw, 1.5rem);
   }
 
