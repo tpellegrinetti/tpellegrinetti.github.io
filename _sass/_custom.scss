@@ -2380,10 +2380,10 @@ html[data-theme="dark"] .academic-research__grid article {
   margin: 0;
   color: #202826;
   font-family: Iowan Old Style, Baskerville, Times New Roman, serif;
-  font-size: clamp(1.45rem, 2.65vw, 2.3rem);
+  font-size: clamp(1.05rem, 1.55vw, 1.45rem);
   font-weight: 600;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  letter-spacing: -0.012em;
+  line-height: 1.48;
   text-shadow: none;
 }
 
@@ -2571,6 +2571,43 @@ html[data-theme="dark"] .academic-research__grid article {
 
 .academic-section {
   padding: clamp(4.8rem, 9vw, 7rem) 0;
+}
+
+.academic-interlude {
+  position: relative;
+  height: clamp(125px, 14vw, 165px);
+  overflow: hidden;
+  border: 1px solid rgba(41, 57, 54, 0.1);
+  border-radius: 0.55rem;
+  background-color: #f2f6f3;
+  background-image: url("/images/microbial-interludes-2026.jpg");
+  background-repeat: no-repeat;
+  background-size: 175% auto;
+  box-shadow: 0 12px 35px rgba(41, 57, 54, 0.05);
+}
+
+.academic-interlude::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, rgba(250, 251, 248, 0.12), transparent 36%, rgba(250, 251, 248, 0.1));
+  pointer-events: none;
+}
+
+.academic-interlude--aquatic {
+  background-position: left center;
+}
+
+.academic-interlude--biofilm {
+  background-position: center center;
+}
+
+.academic-interlude--genomics {
+  background-position: right center;
+}
+
+.academic-interlude + .academic-section {
+  border-top: 0;
 }
 
 .academic-section__heading {
@@ -2818,7 +2855,7 @@ html[data-theme="dark"] .academic-research__grid article {
 
   .academic-hero__copy > p.academic-hero__statement {
     max-width: 430px;
-    font-size: clamp(1.3rem, 5vw, 1.75rem);
+    font-size: clamp(1rem, 3.7vw, 1.25rem);
   }
 
   .academic-profile {
@@ -2873,6 +2910,11 @@ html[data-theme="dark"] .academic-research__grid article {
     padding: 4.5rem 0;
   }
 
+  .academic-interlude {
+    height: 118px;
+    background-size: 190% auto;
+  }
+
   .academic-section__heading {
     gap: 1.5rem;
   }
@@ -2920,7 +2962,7 @@ html[data-theme="dark"] .academic-research__grid article {
   }
 
   .academic-hero__copy > p.academic-hero__statement {
-    font-size: clamp(1.18rem, 5.4vw, 1.5rem);
+    font-size: clamp(0.98rem, 4.4vw, 1.16rem);
   }
 
   .academic-profile__identity h1 {
