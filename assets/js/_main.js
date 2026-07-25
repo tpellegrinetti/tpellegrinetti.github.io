@@ -3,16 +3,15 @@
    ========================================================================== */
 
 $(document).ready(function () {
-  // detect OS/browser preference
-  const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light';
+  // Keep the site's first impression intentionally light. Visitors who prefer
+  // dark mode can still select it with the theme toggle.
+  const browserPref = 'light';
 
   // Set the theme on page load or when explicitly called
   var setTheme = function (theme) {
     const use_theme =
       theme ||
-      localStorage.getItem("theme") ||
+      localStorage.getItem("theme-v2") ||
       $("html").attr("data-theme") ||
       browserPref;
 
@@ -27,20 +26,11 @@ $(document).ready(function () {
 
   setTheme();
 
-  // if user hasn't chosen a theme, follow OS changes
-  window
-    .matchMedia('(prefers-color-scheme: dark)')
-    .addEventListener("change", (e) => {
-      if (!localStorage.getItem("theme")) {
-        setTheme(e.matches ? "dark" : "light");
-      }
-    });
-
   // Toggle the theme manually
   var toggleTheme = function () {
     const current_theme = $("html").attr("data-theme");
     const new_theme = current_theme === "dark" ? "light" : "dark";
-    localStorage.setItem("theme", new_theme);
+    localStorage.setItem("theme-v2", new_theme);
     setTheme(new_theme);
   };
 
