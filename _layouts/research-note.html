@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main id="main" class="academic-note-shell" role="main">
+  <article class="academic-note" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <a class="academic-note__back" href="{{ base_path }}/research-notes/"><span aria-hidden="true">←</span> Research notes</a>
+
+    <div class="academic-note__visual" role="img" aria-label="Microbial genomes, metagenomic sequences, and bioinformatics networks"></div>
+
+    <header class="academic-note__header">
+      <p class="academic-label">Research note · Genome-resolved metagenomics</p>
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      <p class="academic-note__deck" itemprop="description">{{ page.description }}</p>
+      <div class="academic-note__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d %B %Y" }}</time>
+        {% if page.read_time %}<span>{% include read-time.html %}</span>{% endif %}
+        {% if page.paper_url %}<a href="{{ page.paper_url }}" target="_blank" rel="noopener noreferrer">{{ page.paper_label | default: "Related publication" }} <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+    </header>
+
+    <section class="academic-note__content" itemprop="articleBody">
+      {{ content }}
+    </section>
+
+    <footer class="academic-note__footer">
+      <div>
+        <p class="academic-label">Continue exploring</p>
+        <h2>Research notes connect computational results with biological interpretation.</h2>
+      </div>
+      <a class="academic-button academic-button--outline" href="{{ base_path }}/research-notes/">All research notes <span aria-hidden="true">→</span></a>
+    </footer>
+  </article>
+</main>
