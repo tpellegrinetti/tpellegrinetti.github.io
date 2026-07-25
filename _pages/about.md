@@ -14,8 +14,7 @@ redirect_from:
     <div class="academic-hero__backdrop" aria-hidden="true"></div>
     <div class="academic-hero__copy">
       <p class="academic-kicker">Microbial ecology <span>·</span> Bioinformatics</p>
-      <h1 id="home-title">Thierry<br>Pellegrinetti</h1>
-      <p>Reading microbial systems from genes to ecosystems.</p>
+      <p class="academic-hero__statement">Reading microbial systems<br>from genes to ecosystems.</p>
     </div>
   </header>
 
@@ -24,6 +23,7 @@ redirect_from:
       <img src="/images/thierry-pellegrinetti-2026.jpg" alt="Portrait of Thierry Pellegrinetti" width="890" height="883">
     </figure>
     <div class="academic-profile__identity">
+      <h1 id="home-title">Thierry Pellegrinetti</h1>
       <p class="academic-profile__role">Microbial ecologist &amp; bioinformatician</p>
       <p class="academic-profile__affiliation">Postdoctoral researcher · Center for Nuclear Energy in Agriculture, University of São Paulo (CENA-USP)</p>
       <ul class="academic-profile__links" aria-label="Academic profiles">
@@ -35,7 +35,7 @@ redirect_from:
       </ul>
     </div>
     <a class="academic-contact" href="mailto:tpellegrinetti@usp.br">
-      <span>Contact</span>
+      <span>Get in touch</span>
       <strong>tpellegrinetti@usp.br</strong>
       <i aria-hidden="true">↗</i>
     </a>
