@@ -14,7 +14,7 @@ redirect_from:
     <div class="academic-hero__backdrop" aria-hidden="true"></div>
     <div class="academic-hero__copy">
       <p class="academic-kicker">Microbial ecology <span>·</span> Bioinformatics</p>
-      <p class="academic-hero__statement">Reading microbial systems<br>from genes to ecosystems.</p>
+      <p class="academic-hero__statement">I use bioinformatics, metagenomics, and comparative genomics to study microbial communities across plant, soil, aquatic, and insect systems.</p>
     </div>
   </header>
 
@@ -52,9 +52,11 @@ redirect_from:
     <section class="academic-about" id="about">
       <div class="academic-about__copy">
         <p class="academic-label">About</p>
-        <h2>Ecological questions.<br>Computational answers.</h2>
-        <p class="academic-about__lead">I study how microbial communities assemble, adapt, and influence the systems around them—from the rhizosphere and tropical lakes to insect hosts.</p>
-        <p>My work connects genome-scale evidence with ecological meaning. At CENA-USP in Piracicaba, I develop and apply bioinformatic strategies for metagenomics, comparative genomics, network analysis, and multi-omics integration.</p>
+        <h2>Research profile</h2>
+        <p class="academic-about__lead">I am a postdoctoral researcher at CENA-USP working at the intersection of microbial ecology, genomics, and bioinformatics.</p>
+        <p>My research investigates how microbial communities assemble, adapt, and influence the systems around them—from the rhizosphere and agricultural soils to aquatic environments and insect hosts. I am particularly interested in connecting genome-scale evidence with ecological processes and in understanding what sequencing data can reliably reveal about biological function.</p>
+        <p>Projects often begin with raw sequencing data and move through quality control, taxonomic and functional characterisation, genome reconstruction, comparative analysis, and ecological interpretation. Depending on the biological question, I combine metagenomics, comparative genomics, network analysis, functional annotation, and multi-omics integration.</p>
+        <p>At the Center for Nuclear Energy in Agriculture, University of São Paulo, I contribute computational approaches to interdisciplinary research and collaborate with scientists working across microbiology, environmental science, agriculture, and molecular biology.</p>
         <p>I care about analyses that remain biologically honest: methods that expose uncertainty, software that others can reuse, and visualisations that make complex systems easier to reason about.</p>
       </div>
 
@@ -76,28 +78,28 @@ redirect_from:
       <div class="academic-section__heading">
         <div>
           <p class="academic-label">Research</p>
-          <h2>From sequences to systems.</h2>
+          <h2>Research areas</h2>
         </div>
-        <p>My research moves across biological scales while keeping one question in view: what can microbial data reliably tell us about ecological function?</p>
+        <p>My work spans genome-resolved analysis, host-associated microbiomes, and environmental microbial communities. Across these areas, I focus on connecting computational results with defensible ecological interpretation.</p>
       </div>
 
       <div class="academic-research__grid">
         <article>
           <span>01</span>
           <h3>Genome-resolved ecology</h3>
-          <p>Reconstructing microbial genomes and interpreting their quality, population structure, functional potential, and evolutionary context.</p>
+          <p>I reconstruct microbial genomes from complex communities and examine their quality, population structure, functional potential, and evolutionary context. This includes evaluating the biological limits of genome completeness estimates and identifying where apparently high-quality reconstructions may still omit important information.</p>
           <small>MAGs · annotation · comparative genomics</small>
         </article>
         <article>
           <span>02</span>
           <h3>Host–microbiome systems</h3>
-          <p>Understanding how microorganisms shape plant resilience, nutrient cycling, insect symbioses, and responses to environmental stress.</p>
+          <p>I investigate how microorganisms interact with plants and insects, including their contributions to resilience, nutrient cycling, symbiosis, and responses to environmental stress. These studies combine community-level patterns with genomic and functional evidence.</p>
           <small>Rhizosphere · symbiosis · drought</small>
         </article>
         <article>
           <span>03</span>
           <h3>Environmental microbiomes</h3>
-          <p>Connecting community structure and biogeochemical function across soils, aquatic ecosystems, and changing environmental gradients.</p>
+          <p>I analyse microbial diversity and community organisation across soils, aquatic ecosystems, and environmental gradients. The goal is to relate changes in community structure to biogeochemical function while accounting for the limitations of observational and sequencing data.</p>
           <small>Soil · aquatic systems · networks</small>
         </article>
       </div>
@@ -107,7 +109,7 @@ redirect_from:
       <div class="academic-section__heading academic-section__heading--compact">
         <div>
           <p class="academic-label">Selected work</p>
-          <h2>Recent publications.</h2>
+          <h2>Selected publications</h2>
         </div>
         <a class="academic-text-link" href="/publications/">Complete publication record <span aria-hidden="true">→</span></a>
       </div>
@@ -149,6 +151,7 @@ redirect_from:
         <p class="academic-label">Research perspective · 2026</p>
         <h2 id="perspective-title">A “complete” genome can still miss the biology that matters.</h2>
         <p>MAG completeness scores are essential, but they estimate recoverable markers—not necessarily the adaptive and mobile regions that matter for ecological interpretation.</p>
+        <p>The question is not whether completeness metrics should be abandoned, but how they can be interpreted alongside assembly structure, genomic context, and the specific biological claims being made.</p>
         <div class="academic-perspective__links">
           <a class="academic-button" href="/research-notes/beyond-mag-completeness/">Read the research note <span aria-hidden="true">→</span></a>
           <a class="academic-text-link" href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Original paper <span aria-hidden="true">↗</span></a>
@@ -158,8 +161,8 @@ redirect_from:
 
     <section class="academic-invitation">
       <p class="academic-label">Collaborate</p>
-      <h2>Interested in microbial data, ecological inference, or reproducible bioinformatics?</h2>
-      <p>I am always open to thoughtful scientific conversations and interdisciplinary collaborations.</p>
+      <h2>Collaboration and scientific exchange</h2>
+      <p>I am open to interdisciplinary collaborations involving microbial community data, comparative genomics, ecological inference, and reproducible bioinformatics. I also welcome conversations about analytical strategy, interpretation, and the development of reusable research workflows.</p>
       <a class="academic-button academic-button--light" href="mailto:tpellegrinetti@usp.br">Start a conversation <span aria-hidden="true">↗</span></a>
     </section>
   </div>
