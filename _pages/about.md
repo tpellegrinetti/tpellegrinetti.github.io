@@ -9,145 +9,158 @@ redirect_from:
   - /about.html
 ---
 
-<div class="research-home">
-  <section class="profile-hero" aria-labelledby="hero-title">
-    <div class="profile-hero__copy">
-      <p class="eyebrow">Bioinformatics <span>×</span> Microbial ecology</p>
-      <h1 id="hero-title">Reading microbial worlds,<br><em>one genome at a time.</em></h1>
-      <p class="profile-hero__lead">I am Thierry Pellegrinetti, a postdoctoral researcher at the Center for Nuclear Energy in Agriculture, University of São Paulo (CENA-USP). I develop computational strategies that turn complex microbiome data into ecological insight—from the rhizosphere to aquatic ecosystems and insect symbioses.</p>
-      <div class="profile-hero__actions">
-        <a class="profile-button profile-button--primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
-        <a class="profile-button" href="/publications/">View publications <span aria-hidden="true">↗</span></a>
-      </div>
-      <ul class="profile-links" aria-label="Academic profiles">
-        <li><a href="https://scholar.google.com/citations?user=OZYSiosAAAAJ&amp;hl=pt-BR&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+<div class="academic-home">
+  <header class="academic-hero" aria-labelledby="home-title">
+    <div class="academic-hero__backdrop" aria-hidden="true"></div>
+    <div class="academic-hero__copy">
+      <p class="academic-kicker">Microbial ecology <span>·</span> Bioinformatics</p>
+      <h1 id="home-title">Thierry<br>Pellegrinetti</h1>
+      <p>Reading microbial systems from genes to ecosystems.</p>
+    </div>
+  </header>
+
+  <section class="academic-profile" aria-label="Researcher profile">
+    <figure class="academic-profile__portrait">
+      <img src="/images/thierry-pellegrinetti-2026.jpg" alt="Portrait of Thierry Pellegrinetti" width="890" height="883">
+    </figure>
+    <div class="academic-profile__identity">
+      <p class="academic-profile__role">Microbial ecologist &amp; bioinformatician</p>
+      <p class="academic-profile__affiliation">Postdoctoral researcher · Center for Nuclear Energy in Agriculture, University of São Paulo (CENA-USP)</p>
+      <ul class="academic-profile__links" aria-label="Academic profiles">
+        <li><a href="https://scholar.google.com/citations?user=OZYSiosAAAAJ&amp;hl=pt-BR&amp;oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a></li>
         <li><a href="https://orcid.org/0000-0001-9386-6273" target="_blank" rel="noopener noreferrer">ORCID</a></li>
-        <li><a href="http://lattes.cnpq.br/3793742234896496" target="_blank" rel="noopener noreferrer">Lattes CV</a></li>
+        <li><a href="http://lattes.cnpq.br/3793742234896496" target="_blank" rel="noopener noreferrer">Lattes</a></li>
         <li><a href="https://www.linkedin.com/in/thierry-pellegrinetti/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         <li><a href="https://github.com/tpellegrinetti" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
     </div>
+    <a class="academic-contact" href="mailto:tpellegrinetti@usp.br">
+      <span>Contact</span>
+      <strong>tpellegrinetti@usp.br</strong>
+      <i aria-hidden="true">↗</i>
+    </a>
+  </section>
 
-    <figure class="profile-portrait">
-      <div class="profile-portrait__orbit" aria-hidden="true">
-        <span></span><span></span><span></span><span></span>
+  <nav class="academic-section-nav" aria-label="Homepage sections">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Selected work</a>
+    <a href="#perspective">Perspective</a>
+  </nav>
+
+  <div class="academic-home__content">
+    <section class="academic-about" id="about">
+      <div class="academic-about__copy">
+        <p class="academic-label">About</p>
+        <h2>Ecological questions.<br>Computational answers.</h2>
+        <p class="academic-about__lead">I study how microbial communities assemble, adapt, and influence the systems around them—from the rhizosphere and tropical lakes to insect hosts.</p>
+        <p>My work connects genome-scale evidence with ecological meaning. At CENA-USP in Piracicaba, I develop and apply bioinformatic strategies for metagenomics, comparative genomics, network analysis, and multi-omics integration.</p>
+        <p>I care about analyses that remain biologically honest: methods that expose uncertainty, software that others can reuse, and visualisations that make complex systems easier to reason about.</p>
       </div>
-      <div class="profile-portrait__frame">
-        <img src="/images/thierry-pellegrinetti-2026.jpg" alt="Portrait of Thierry Pellegrinetti" width="890" height="883">
+
+      <aside class="academic-expertise" aria-labelledby="expertise-title">
+        <p class="academic-label">Research toolkit</p>
+        <h3 id="expertise-title">Ask me about</h3>
+        <ul>
+          <li>Genome-resolved metagenomics</li>
+          <li>Comparative microbial genomics</li>
+          <li>Microbiome network analysis</li>
+          <li>Functional annotation</li>
+          <li>Multi-omics integration</li>
+          <li>Reproducible R &amp; Python workflows</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="academic-section academic-research" id="research">
+      <div class="academic-section__heading">
+        <div>
+          <p class="academic-label">Research</p>
+          <h2>From sequences to systems.</h2>
+        </div>
+        <p>My research moves across biological scales while keeping one question in view: what can microbial data reliably tell us about ecological function?</p>
       </div>
-      <figcaption>
-        <span>Postdoctoral researcher</span>
-        <strong>CENA-USP · University of São Paulo</strong>
-      </figcaption>
-    </figure>
-  </section>
 
-  <section class="research-signal" aria-label="Research profile">
-    <div><span class="signal-index">01</span><strong>Systems</strong><small>Plant · soil · aquatic · insect</small></div>
-    <div><span class="signal-index">02</span><strong>Methods</strong><small>Metagenomics · comparative genomics</small></div>
-    <div><span class="signal-index">03</span><strong>Purpose</strong><small>Resilient agriculture · ecosystem health</small></div>
-  </section>
-
-  <section class="profile-section" id="research">
-    <div class="section-heading">
-      <p class="eyebrow">Research programme</p>
-      <h2>From sequences to systems.</h2>
-      <p>My work connects genome-scale evidence with the ecological questions that matter: who is there, what can they do, how do they interact, and how can those interactions support more sustainable systems?</p>
-    </div>
-
-    <div class="research-grid">
-      <article class="research-card research-card--teal">
-        <span class="research-card__number">01</span>
-        <div class="research-card__glyph" aria-hidden="true"><i></i><i></i><i></i></div>
-        <h3>Genome-resolved ecology</h3>
-        <p>Reconstructing and comparing microbial genomes while keeping technical quality, population structure, and ecological interpretation in view.</p>
-        <ul><li>MAGs &amp; comparative genomics</li><li>Functional annotation</li><li>Microbial evolution</li></ul>
-      </article>
-
-      <article class="research-card research-card--sage">
-        <span class="research-card__number">02</span>
-        <div class="research-card__glyph research-card__glyph--roots" aria-hidden="true"><i></i><i></i><i></i></div>
-        <h3>Host–microbiome systems</h3>
-        <p>Understanding how microbial communities shape plant resilience, nutrient cycling, pathogen transmission, and host adaptation.</p>
-        <ul><li>Rhizosphere microbiomes</li><li>Insect symbioses</li><li>Environmental gradients</li></ul>
-      </article>
-
-      <article class="research-card research-card--lime">
-        <span class="research-card__number">03</span>
-        <div class="research-card__glyph research-card__glyph--code" aria-hidden="true"><i></i><i></i><i></i></div>
-        <h3>Reproducible bioinformatics</h3>
-        <p>Designing interpretable workflows and scientific software that make multi-omic analyses more transparent, reusable, and useful.</p>
-        <ul><li>Pipeline development</li><li>Multi-omics integration</li><li>Data visualisation</li></ul>
-      </article>
-    </div>
-  </section>
-
-  <section class="profile-section perspective-feature" aria-labelledby="perspective-title">
-    <div class="perspective-visual" aria-hidden="true">
-      <div class="score-ring"><strong>95%</strong><span>estimated<br>complete</span></div>
-      <div class="missing-fraction"><span>plasmids</span><span>rRNA</span><span>genomic islands</span><span>CRISPR</span></div>
-    </div>
-    <div class="perspective-copy">
-      <p class="eyebrow">Research note · July 2026</p>
-      <h2 id="perspective-title">A “complete” genome can still miss the biology that matters.</h2>
-      <p>MAG completeness scores are invaluable—but they are estimates built from recoverable markers. Adaptive and mobile regions can remain underrepresented even in apparently high-quality genomes. I unpack what that means for microbial ecology.</p>
-      <a class="text-link" href="/research-notes/beyond-mag-completeness/">Read the research note <span aria-hidden="true">→</span></a>
-      <a class="text-link text-link--quiet" href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Read the original paper <span aria-hidden="true">↗</span></a>
-    </div>
-  </section>
-
-  <section class="profile-section selected-work">
-    <div class="section-heading section-heading--row">
-      <div>
-        <p class="eyebrow">Selected work</p>
-        <h2>Recent publications.</h2>
+      <div class="academic-research__grid">
+        <article>
+          <span>01</span>
+          <h3>Genome-resolved ecology</h3>
+          <p>Reconstructing microbial genomes and interpreting their quality, population structure, functional potential, and evolutionary context.</p>
+          <small>MAGs · annotation · comparative genomics</small>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Host–microbiome systems</h3>
+          <p>Understanding how microorganisms shape plant resilience, nutrient cycling, insect symbioses, and responses to environmental stress.</p>
+          <small>Rhizosphere · symbiosis · drought</small>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Environmental microbiomes</h3>
+          <p>Connecting community structure and biogeochemical function across soils, aquatic ecosystems, and changing environmental gradients.</p>
+          <small>Soil · aquatic systems · networks</small>
+        </article>
       </div>
-      <a class="text-link" href="/publications/">See the publication record <span aria-hidden="true">→</span></a>
-    </div>
+    </section>
 
-    <div class="publication-grid">
-      <article class="publication-card">
-        <div class="publication-card__meta"><span>2026</span><span>Opinion</span></div>
-        <h3><a href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Rethinking metagenome-assembled genome completeness</a></h3>
-        <p><em>Frontiers in Microbiology</em></p>
-        <span class="publication-card__doi">10.3389/fmicb.2026.1884628</span>
-      </article>
-
-      <article class="publication-card">
-        <div class="publication-card__meta"><span>2026</span><span>Review</span></div>
-        <h3><a href="https://doi.org/10.1093/jee/toag166" target="_blank" rel="noopener noreferrer">Can the leafhopper microbiome unlock new strategies for its control?</a></h3>
-        <p><em>Journal of Economic Entomology</em></p>
-        <span class="publication-card__doi">10.1093/jee/toag166</span>
-      </article>
-
-      <article class="publication-card">
-        <div class="publication-card__meta"><span>2026</span><span>Research</span></div>
-        <h3><a href="https://doi.org/10.3389/fpls.2026.1786322" target="_blank" rel="noopener noreferrer">Genotype-dependent stability of mycorrhizal communities under drought</a></h3>
-        <p><em>Frontiers in Plant Science</em></p>
-        <span class="publication-card__doi">10.3389/fpls.2026.1786322</span>
-      </article>
-
-      <article class="publication-card publication-card--accent">
-        <div class="publication-card__meta"><span>2024</span><span>Software</span></div>
-        <h3><a href="https://doi.org/10.1016/j.rhisph.2024.100905" target="_blank" rel="noopener noreferrer">PGPg_finder: identifying plant growth-promoting genes</a></h3>
-        <p><em>Rhizosphere</em></p>
-        <span class="publication-card__doi">10.1016/j.rhisph.2024.100905</span>
-      </article>
-    </div>
-  </section>
-
-  <section class="profile-section profile-about">
-    <div>
-      <p class="eyebrow">About</p>
-      <h2>Ecological questions.<br>Computational answers.</h2>
-    </div>
-    <div class="profile-about__copy">
-      <p>My research sits at the intersection of microbial ecology, bioinformatics, and environmental science. Based at CENA-USP in Piracicaba, I work across biological scales—from genes and genomes to communities and ecosystems—and through international scientific collaborations.</p>
-      <p>I am especially interested in analyses that remain biologically honest: methods that expose uncertainty, software that others can reuse, and visualisations that make complex systems easier to reason about.</p>
-      <div class="profile-about__links">
-        <a class="profile-button profile-button--primary" href="mailto:tpellegrinetti@usp.br">Start a conversation</a>
-        <a class="profile-button" href="http://lattes.cnpq.br/3793742234896496" target="_blank" rel="noopener noreferrer">Academic CV</a>
+    <section class="academic-section academic-publications" id="publications">
+      <div class="academic-section__heading academic-section__heading--compact">
+        <div>
+          <p class="academic-label">Selected work</p>
+          <h2>Recent publications.</h2>
+        </div>
+        <a class="academic-text-link" href="/publications/">Complete publication record <span aria-hidden="true">→</span></a>
       </div>
-    </div>
-  </section>
+
+      <div class="academic-publication-list">
+        <article>
+          <div class="academic-publication-list__meta"><span>2026</span><small>Opinion</small></div>
+          <h3><a href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Rethinking metagenome-assembled genome completeness: are we truly recovering complete genomes?</a></h3>
+          <p><em>Frontiers in Microbiology</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2026</span><small>Review</small></div>
+          <h3><a href="https://doi.org/10.1093/jee/toag166" target="_blank" rel="noopener noreferrer">Can the leafhopper microbiome unlock new strategies for its control?</a></h3>
+          <p><em>Journal of Economic Entomology</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1093/jee/toag166" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2026</span><small>Research</small></div>
+          <h3><a href="https://doi.org/10.3389/fpls.2026.1786322" target="_blank" rel="noopener noreferrer">Genotype-dependent stability of mycorrhizal communities under drought</a></h3>
+          <p><em>Frontiers in Plant Science</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.3389/fpls.2026.1786322" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2024</span><small>Software</small></div>
+          <h3><a href="https://doi.org/10.1016/j.rhisph.2024.100905" target="_blank" rel="noopener noreferrer">PGPg_finder: identifying plant growth-promoting genes in prokaryotic genomes</a></h3>
+          <p><em>Rhizosphere</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1016/j.rhisph.2024.100905" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="academic-perspective" id="perspective" aria-labelledby="perspective-title">
+      <div class="academic-perspective__index" aria-hidden="true">
+        <span>95%</span>
+        <small>estimated<br>complete</small>
+      </div>
+      <div class="academic-perspective__copy">
+        <p class="academic-label">Research perspective · 2026</p>
+        <h2 id="perspective-title">A “complete” genome can still miss the biology that matters.</h2>
+        <p>MAG completeness scores are essential, but they estimate recoverable markers—not necessarily the adaptive and mobile regions that matter for ecological interpretation.</p>
+        <div class="academic-perspective__links">
+          <a class="academic-button" href="/research-notes/beyond-mag-completeness/">Read the research note <span aria-hidden="true">→</span></a>
+          <a class="academic-text-link" href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Original paper <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="academic-invitation">
+      <p class="academic-label">Collaborate</p>
+      <h2>Interested in microbial data, ecological inference, or reproducible bioinformatics?</h2>
+      <p>I am always open to thoughtful scientific conversations and interdisciplinary collaborations.</p>
+      <a class="academic-button academic-button--light" href="mailto:tpellegrinetti@usp.br">Start a conversation <span aria-hidden="true">↗</span></a>
+    </section>
+  </div>
 </div>
