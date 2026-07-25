@@ -131,6 +131,14 @@ html[data-theme="dark"] .profile-button--primary:hover {
   background: var(--signal);
 }
 
+.greedy-nav a[aria-current="page"] {
+  color: var(--petroleum);
+}
+
+.greedy-nav a[aria-current="page"]::before {
+  transform: scaleX(1);
+}
+
 #main {
   margin-top: 0;
   padding-left: 1.25rem;
@@ -1414,6 +1422,512 @@ html[data-theme="dark"] .profile-button--primary:hover {
 
   .publication-card {
     min-height: 0;
+  }
+}
+
+/* ==========================================================================
+   Academic inner pages — shared light editorial system
+   ========================================================================== */
+
+.academic-subpage {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(5rem, 9vw, 7rem);
+  color: var(--ink);
+}
+
+.academic-subpage,
+.academic-subpage * {
+  box-sizing: border-box;
+}
+
+.academic-subpage a {
+  text-decoration: none;
+}
+
+.academic-subpage__header {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.72fr);
+  gap: clamp(2rem, 7vw, 6rem);
+  align-items: end;
+  padding-bottom: clamp(2.4rem, 5vw, 3.7rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.academic-subpage__title h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(2.4rem, 4.8vw, 4rem);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.academic-subpage__intro > p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.86rem;
+  line-height: 1.82;
+}
+
+.academic-subpage__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.45rem;
+}
+
+.academic-button--outline {
+  color: var(--petroleum) !important;
+  border: 1px solid rgba(55, 109, 102, 0.34);
+  background: transparent;
+}
+
+.academic-button--outline:hover {
+  color: var(--petroleum) !important;
+  border-color: var(--petroleum);
+  background: var(--sage-pale);
+}
+
+.academic-subpage__visual,
+.academic-note__visual {
+  position: relative;
+  height: clamp(115px, 14vw, 155px);
+  margin: clamp(2rem, 5vw, 3.5rem) 0 clamp(4rem, 8vw, 6rem);
+  overflow: hidden;
+  border: 1px solid rgba(41, 57, 54, 0.1);
+  border-radius: 0.55rem;
+  background-color: #f2f6f3;
+  background-image: url("/images/microbial-interludes-2026.jpg");
+  background-repeat: no-repeat;
+  background-size: 175% auto;
+  box-shadow: 0 12px 35px rgba(41, 57, 54, 0.05);
+}
+
+.academic-subpage__visual::after,
+.academic-note__visual::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, rgba(250, 251, 248, 0.12), transparent 40%, rgba(250, 251, 248, 0.12));
+  pointer-events: none;
+}
+
+.academic-subpage__visual--microbiome {
+  background-position: center center;
+}
+
+.academic-subpage__visual--genomics,
+.academic-note__visual {
+  background-position: right center;
+}
+
+/* Publications */
+
+.academic-subpage .publication-year {
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  max-width: 980px;
+  margin: 0 auto clamp(4rem, 7vw, 5.5rem);
+}
+
+.academic-subpage .publication-year__label {
+  top: 5.5rem;
+  padding-top: 1.2rem;
+}
+
+.academic-subpage .publication-year__label span {
+  color: var(--petroleum);
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.academic-subpage .publication-year__label small {
+  margin-top: 0.45rem;
+  font-size: 0.54rem;
+}
+
+.academic-subpage .publication-entry {
+  padding: 1.35rem 0 1.5rem;
+}
+
+.academic-subpage .publication-entry--featured {
+  margin: 0;
+  padding: 1.55rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: var(--sage-pale);
+  box-shadow: none;
+}
+
+.academic-subpage .publication-entry--featured + .publication-entry {
+  margin-top: 0.8rem;
+}
+
+.academic-subpage .publication-entry__type {
+  margin-bottom: 0.65rem;
+  font-size: 0.56rem;
+}
+
+.academic-subpage .publication-entry h2 {
+  margin-bottom: 0.65rem;
+  font-size: clamp(1.08rem, 1.75vw, 1.38rem);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.academic-subpage .publication-year--compact .publication-entry h2 {
+  font-size: 1.08rem;
+}
+
+.academic-subpage .publication-entry__authors,
+.academic-subpage .publication-entry__venue {
+  font-size: 0.74rem;
+  line-height: 1.62;
+}
+
+.academic-subpage .publication-entry__links {
+  margin-top: 0.75rem;
+}
+
+.academic-subpage .publication-entry__links a,
+.academic-subpage .publication-entry__venue a {
+  font-size: 0.57rem;
+}
+
+.academic-subpage__note.publication-note {
+  max-width: 760px;
+  margin: 0 0 0 auto;
+  padding: 1.4rem 0 0;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+
+.academic-subpage__note.publication-note > span {
+  color: var(--signal);
+}
+
+.academic-subpage__note.publication-note p {
+  font-size: 0.78rem;
+}
+
+.academic-subpage__note.publication-note a {
+  color: var(--petroleum);
+}
+
+/* Research notes index */
+
+.academic-subpage .notes-list {
+  max-width: 900px;
+}
+
+.academic-subpage .note-card {
+  padding: clamp(1.8rem, 4vw, 3rem) 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.academic-subpage .note-card__meta {
+  font-size: 0.57rem;
+}
+
+.academic-subpage .note-card h2 {
+  max-width: 760px;
+  margin: 1.5rem 0 0.9rem;
+  font-size: clamp(1.55rem, 3vw, 2.4rem);
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.academic-subpage .note-card > p {
+  max-width: 700px;
+  font-size: 0.84rem;
+  line-height: 1.82;
+}
+
+.academic-subpage .notes-invitation {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 2rem;
+  max-width: 760px;
+  margin-top: clamp(3rem, 6vw, 4.5rem);
+  padding-top: 1.6rem;
+}
+
+.academic-subpage .notes-invitation > p:last-child {
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+/* Long-form research note */
+
+#main.academic-note-shell {
+  display: block;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 3.5rem) 1.25rem clamp(5rem, 9vw, 7rem);
+}
+
+.academic-note {
+  width: 100%;
+  color: var(--ink);
+}
+
+.academic-note__back {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: var(--ink-soft);
+  font-size: 0.6rem;
+  font-weight: 750;
+  letter-spacing: 0.09em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.academic-note__back:hover {
+  color: var(--petroleum);
+}
+
+.academic-note__visual {
+  margin: 1.6rem 0 clamp(3rem, 6vw, 4.8rem);
+}
+
+.academic-note__header {
+  max-width: 880px;
+  padding-bottom: clamp(2rem, 5vw, 3.2rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.academic-note__header h1 {
+  max-width: 850px;
+  margin: 0;
+  font-size: clamp(2.35rem, 5vw, 4.15rem);
+  font-weight: 500;
+  line-height: 1.04;
+}
+
+.academic-note__deck {
+  max-width: 760px;
+  margin: 1.4rem 0 0;
+  color: var(--ink-soft);
+  font-family: Iowan Old Style, Baskerville, Times New Roman, serif;
+  font-size: clamp(1.05rem, 1.8vw, 1.32rem);
+  line-height: 1.58;
+}
+
+.academic-note__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.25rem;
+  margin-top: 1.5rem;
+  color: var(--ink-soft);
+  font-size: 0.56rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.academic-note__meta a {
+  color: var(--petroleum);
+  text-decoration: none;
+}
+
+.academic-note__content {
+  max-width: 780px;
+  padding-top: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.academic-note__content > p,
+.academic-note__content > ul,
+.academic-note__content > ol {
+  max-width: 730px;
+}
+
+.academic-note__content p,
+.academic-note__content li {
+  color: var(--ink);
+  font-size: 0.88rem;
+  line-height: 1.88;
+}
+
+.academic-note__content li + li {
+  margin-top: 0.55rem;
+}
+
+.academic-note__content h2 {
+  max-width: 730px;
+  margin: clamp(3rem, 7vw, 4.5rem) 0 1rem;
+  padding: 0;
+  border: 0;
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.academic-note__content a {
+  color: var(--petroleum);
+}
+
+.academic-note .article-pullquote {
+  max-width: 760px;
+  margin: clamp(2.5rem, 6vw, 4rem) 0;
+  padding: clamp(1.6rem, 4vw, 2.5rem);
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: var(--sage-pale);
+}
+
+.academic-note .article-pullquote span {
+  color: var(--petroleum);
+}
+
+.academic-note .article-pullquote p {
+  color: var(--ink);
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem) !important;
+  line-height: 1.45;
+}
+
+.academic-note .article-comparison {
+  border-radius: 0.55rem;
+  box-shadow: none;
+}
+
+.academic-note .article-citation {
+  border-radius: 0.55rem;
+  box-shadow: none;
+}
+
+.academic-note__footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: end;
+  margin-top: clamp(4rem, 8vw, 6rem);
+  padding: clamp(2rem, 5vw, 3rem) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.academic-note__footer h2 {
+  max-width: 650px;
+  margin: 0;
+  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  font-weight: 500;
+  line-height: 1.22;
+}
+
+/* Shared footer and utility pages */
+
+.page__footer {
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  background: var(--sage-pale);
+}
+
+.page__footer-follow a,
+.page__footer-copyright a {
+  color: var(--petroleum);
+}
+
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+  color: var(--petroleum);
+}
+
+.academic-not-found {
+  max-width: 760px;
+  min-height: 55vh;
+  padding-top: clamp(5rem, 12vw, 9rem);
+}
+
+.academic-not-found h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 500;
+}
+
+.academic-not-found > p:not(.academic-label) {
+  max-width: 520px;
+  margin-bottom: 2rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 740px) {
+  .academic-subpage {
+    padding-top: 3rem;
+  }
+
+  .academic-subpage__header {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .academic-subpage__visual,
+  .academic-note__visual {
+    height: 112px;
+    background-size: 195% auto;
+  }
+
+  .academic-subpage .publication-year {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .academic-subpage .publication-year__label {
+    position: static;
+    padding-top: 0;
+  }
+
+  .academic-subpage .publication-year__label span,
+  .academic-subpage .publication-year__label small {
+    display: inline-block;
+    margin: 0 0.6rem 0 0;
+  }
+
+  .academic-subpage .notes-invitation,
+  .academic-note__footer {
+    grid-template-columns: 1fr;
+  }
+
+  #main.academic-note-shell {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .academic-note__footer {
+    align-items: start;
+  }
+
+  .academic-note__footer .academic-button {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 480px) {
+  .academic-subpage__actions {
+    display: grid;
+  }
+
+  .academic-subpage__actions .academic-button {
+    width: 100%;
+  }
+
+  .academic-note__meta {
+    display: grid;
   }
 }
 

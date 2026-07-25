@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: research-note
 title: "Beyond 95%: what genome completeness scores leave out"
 description: "Why a highly complete metagenome-assembled genome may still miss ecologically important biology—and how to interpret MAG quality more carefully."
 date: 2026-07-06
@@ -11,19 +11,11 @@ tags:
   - microbial ecology
 author_profile: false
 read_time: true
-share: true
+share: false
 related: false
-header:
-  image: og-thierry-pellegrinetti.png
+paper_url: "https://doi.org/10.3389/fmicb.2026.1884628"
+paper_label: "Based on our 2026 opinion paper"
 ---
-
-<p class="article-deck">A metagenome-assembled genome can pass a familiar quality threshold and still fail to recover some of the regions most important for microbial adaptation. The number is useful. The interpretation needs more care.</p>
-
-<div class="article-meta-line">
-  <span>Genome-resolved metagenomics</span>
-  <span>6 min read</span>
-  <a href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Based on our 2026 opinion paper ↗</a>
-</div>
 
 Genome-resolved metagenomics has transformed microbial ecology. Instead of describing a community only through marker genes or aggregate functions, we can reconstruct genomes directly from environmental sequencing data and ask which organisms carry which capacities.
 
@@ -100,5 +92,5 @@ MAGs have opened an extraordinary window into uncultivated microbial diversity. 
 <div class="article-citation">
   <span>Original perspective</span>
   <p>Pellegrinetti, T.A., Molligan, J., Mendes, L.W., Pedrinho, A., &amp; Pérez-López, E. (2026). <em>Rethinking metagenome-assembled genome completeness: are we truly recovering complete genomes?</em> Frontiers in Microbiology, 17, 1884628.</p>
-  <a class="profile-button profile-button--primary" href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Read the open-access paper <span aria-hidden="true">↗</span></a>
+  <a class="academic-button" href="https://doi.org/10.3389/fmicb.2026.1884628" target="_blank" rel="noopener noreferrer">Read the open-access paper <span aria-hidden="true">↗</span></a>
 </div>
