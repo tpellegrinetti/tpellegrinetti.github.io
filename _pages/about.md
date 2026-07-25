@@ -74,6 +74,8 @@ redirect_from:
       </aside>
     </section>
 
+    <div class="academic-interlude academic-interlude--aquatic" role="img" aria-label="Microscopy-inspired view of aquatic microorganisms and diatom-like forms"></div>
+
     <section class="academic-section academic-research" id="research">
       <div class="academic-section__heading">
         <div>
@@ -104,6 +106,8 @@ redirect_from:
         </article>
       </div>
     </section>
+
+    <div class="academic-interlude academic-interlude--biofilm" role="img" aria-label="Scientific visualisation of translucent microbial colonies and biofilm structures"></div>
 
     <section class="academic-section academic-publications" id="publications">
       <div class="academic-section__heading academic-section__heading--compact">
@@ -177,6 +181,8 @@ redirect_from:
         </article>
       </div>
     </section>
+
+    <div class="academic-interlude academic-interlude--genomics" role="img" aria-label="Abstract scientific visualisation of genomic structures and biological data networks"></div>
 
     <section class="academic-perspective" id="perspective" aria-labelledby="perspective-title">
       <div class="academic-perspective__index" aria-hidden="true">
