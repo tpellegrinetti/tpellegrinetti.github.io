@@ -27,11 +27,11 @@ redirect_from:
       <p class="academic-profile__role">Microbial ecologist &amp; bioinformatician</p>
       <p class="academic-profile__affiliation">Postdoctoral researcher · Center for Nuclear Energy in Agriculture, University of São Paulo (CENA-USP)</p>
       <ul class="academic-profile__links" aria-label="Academic profiles">
-        <li><a href="https://scholar.google.com/citations?user=OZYSiosAAAAJ&amp;hl=pt-BR&amp;oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a></li>
-        <li><a href="https://orcid.org/0000-0001-9386-6273" target="_blank" rel="noopener noreferrer">ORCID</a></li>
-        <li><a href="http://lattes.cnpq.br/3793742234896496" target="_blank" rel="noopener noreferrer">Lattes</a></li>
-        <li><a href="https://www.linkedin.com/in/thierry-pellegrinetti/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-        <li><a href="https://github.com/tpellegrinetti" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=OZYSiosAAAAJ&amp;hl=pt-BR&amp;oi=ao" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Scholar</span></a></li>
+        <li><a href="https://orcid.org/0000-0001-9386-6273" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li>
+        <li><a href="http://lattes.cnpq.br/3793742234896496" target="_blank" rel="noopener noreferrer"><i class="ai ai-lattes" aria-hidden="true"></i><span>Lattes</span></a></li>
+        <li><a href="https://www.linkedin.com/in/thierry-pellegrinetti/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a></li>
+        <li><a href="https://github.com/tpellegrinetti" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a></li>
       </ul>
     </div>
     <a class="academic-contact" href="mailto:tpellegrinetti@usp.br">
@@ -129,15 +129,51 @@ redirect_from:
         </article>
         <article>
           <div class="academic-publication-list__meta"><span>2026</span><small>Research</small></div>
-          <h3><a href="https://doi.org/10.3389/fpls.2026.1786322" target="_blank" rel="noopener noreferrer">Genotype-dependent stability of mycorrhizal communities under drought</a></h3>
+          <h3><a href="https://doi.org/10.3389/fpls.2026.1786322" target="_blank" rel="noopener noreferrer">Genotype-dependent stability and specialization of arbuscular mycorrhizal fungal communities under drought in common bean</a></h3>
           <p><em>Frontiers in Plant Science</em></p>
           <a class="academic-publication-list__arrow" href="https://doi.org/10.3389/fpls.2026.1786322" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
         </article>
         <article>
+          <div class="academic-publication-list__meta"><span>2026</span><small>Perspective</small></div>
+          <h3><a href="https://doi.org/10.1007/s11104-026-08578-5" target="_blank" rel="noopener noreferrer">Integrating plant microbiome for resilient agriculture and a sustainable environment</a></h3>
+          <p><em>Plant and Soil</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1007/s11104-026-08578-5" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2026</span><small>Research</small></div>
+          <h3><a href="https://doi.org/10.1038/s41522-026-01021-8" target="_blank" rel="noopener noreferrer">Bacterial inoculation drives microbiome-mediated resistance to a soil-borne pathogen in wheat</a></h3>
+          <p><em>npj Biofilms and Microbiomes</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1038/s41522-026-01021-8" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2025</span><small>Research</small></div>
+          <h3><a href="https://doi.org/10.1016/j.stress.2025.100860" target="_blank" rel="noopener noreferrer">Functional adaptations of the rhizosphere microbiome for drought-tolerance promotion in common bean</a></h3>
+          <p><em>Plant Stress</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1016/j.stress.2025.100860" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2025</span><small>Genome</small></div>
+          <h3><a href="https://doi.org/10.1128/mra.00807-24" target="_blank" rel="noopener noreferrer">Metagenome-assembled bacterial genomes from long accurate reads associated with <em>Capilliphycus salinus</em> ALCB114379</a></h3>
+          <p><em>Microbiology Resource Announcements</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1128/mra.00807-24" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2025</span><small>Research</small></div>
+          <h3><a href="https://doi.org/10.1093/femsec/fiaf013" target="_blank" rel="noopener noreferrer">Co-inoculation with <em>Bacillus thuringiensis</em> RZ2MS9 and rhizobia improves soybean development and modulates soil functional diversity</a></h3>
+          <p><em>FEMS Microbiology Ecology</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1093/femsec/fiaf013" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
           <div class="academic-publication-list__meta"><span>2024</span><small>Software</small></div>
-          <h3><a href="https://doi.org/10.1016/j.rhisph.2024.100905" target="_blank" rel="noopener noreferrer">PGPg_finder: identifying plant growth-promoting genes in prokaryotic genomes</a></h3>
+          <h3><a href="https://doi.org/10.1016/j.rhisph.2024.100905" target="_blank" rel="noopener noreferrer">PGPg_finder: a comprehensive and user-friendly pipeline for identifying plant growth-promoting genes in genomic and metagenomic data</a></h3>
           <p><em>Rhizosphere</em></p>
           <a class="academic-publication-list__arrow" href="https://doi.org/10.1016/j.rhisph.2024.100905" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
+        </article>
+        <article>
+          <div class="academic-publication-list__meta"><span>2024</span><small>Research</small></div>
+          <h3><a href="https://doi.org/10.1016/j.micres.2024.127706" target="_blank" rel="noopener noreferrer">The interplay between plant growth-promoting rhizobacteria and the rhizosphere microbiome</a></h3>
+          <p><em>Microbiological Research</em></p>
+          <a class="academic-publication-list__arrow" href="https://doi.org/10.1016/j.micres.2024.127706" target="_blank" rel="noopener noreferrer" aria-label="Open publication">↗</a>
         </article>
       </div>
     </section>
@@ -163,7 +199,10 @@ redirect_from:
       <p class="academic-label">Collaborate</p>
       <h2>Collaboration and scientific exchange</h2>
       <p>I am open to interdisciplinary collaborations involving microbial community data, comparative genomics, ecological inference, and reproducible bioinformatics. I also welcome conversations about analytical strategy, interpretation, and the development of reusable research workflows.</p>
-      <a class="academic-button academic-button--light" href="mailto:tpellegrinetti@usp.br">Start a conversation <span aria-hidden="true">↗</span></a>
+      <div class="academic-invitation__footer">
+        <a class="academic-button academic-button--light" href="mailto:tpellegrinetti@usp.br">Start a conversation <span aria-hidden="true">↗</span></a>
+        <a class="academic-support" href="https://fapesp.br/en" target="_blank" rel="noopener noreferrer"><span>Support:</span> <strong>FAPESP</strong></a>
+      </div>
     </section>
   </div>
 </div>
