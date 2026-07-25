@@ -2378,10 +2378,10 @@ html[data-theme="dark"] .academic-research__grid article {
 .academic-hero__statement {
   max-width: 680px;
   margin: 0;
-  color: var(--ink);
+  color: #202826;
   font-family: Iowan Old Style, Baskerville, Times New Roman, serif;
   font-size: clamp(1.45rem, 2.65vw, 2.3rem);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 1.2;
   text-shadow: none;
@@ -2444,13 +2444,30 @@ html[data-theme="dark"] .academic-research__grid article {
 }
 
 .academic-profile__links a {
+  display: inline-flex;
+  gap: 0.38rem;
+  align-items: center;
   color: var(--ink-soft);
   font-size: 0.6rem;
   letter-spacing: 0.09em;
 }
 
+.academic-profile__links .ai,
+.academic-profile__links .fab {
+  width: 1em;
+  color: var(--petroleum);
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+}
+
 .academic-profile__links a:hover {
   color: var(--petroleum-bright);
+}
+
+.academic-profile__links a:hover .ai,
+.academic-profile__links a:hover .fab {
+  color: inherit;
 }
 
 .academic-contact {
@@ -2702,6 +2719,36 @@ html[data-theme="dark"] .academic-research__grid article {
   color: var(--ink-soft);
 }
 
+.academic-invitation__footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.academic-support {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: baseline;
+  color: var(--ink-soft) !important;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.academic-support strong {
+  color: var(--petroleum);
+  font-size: 0.8rem;
+}
+
+.academic-support:hover strong {
+  color: var(--ink);
+}
+
 .academic-button--light {
   color: var(--petroleum) !important;
   border: 1px solid rgba(55, 109, 102, 0.36);
@@ -2855,6 +2902,11 @@ html[data-theme="dark"] .academic-research__grid article {
   .academic-invitation {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .academic-invitation__footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
