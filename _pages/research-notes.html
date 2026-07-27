@@ -13,23 +13,30 @@ author_profile: false
       <h1>Research notes</h1>
     </div>
     <div class="academic-subpage__intro">
-      <p>Short, accessible essays that connect methods to meaning—what a bioinformatic result can tell us, where uncertainty enters, and why it matters for microbial ecology.</p>
+      <p>Five accessible essays built around papers selected for citation impact, first-author contribution, and thematic range—from computational methods to plant, soil, and aquatic microbiomes.</p>
     </div>
   </header>
 
   <div class="academic-subpage__visual academic-subpage__visual--microbiome" role="img" aria-label="Environmental microbiome, microbial interactions, and genomic analysis"></div>
 
   <section class="notes-list" aria-label="Published research notes">
-    <article class="note-card note-card--lead">
-      <div class="note-card__meta"><time datetime="2026-07-06">06 July 2026</time><span>Genome-resolved metagenomics</span></div>
-      <h2><a href="/research-notes/beyond-mag-completeness/">Beyond 95%: what genome completeness scores leave out</a></h2>
-      <p>A high-quality MAG can satisfy conventional thresholds while still underrepresenting mobile, repetitive, and adaptive regions. Here is a practical way to interpret the score without overreading it.</p>
-      <a class="academic-text-link" href="/research-notes/beyond-mag-completeness/">Read the note <span aria-hidden="true">→</span></a>
-    </article>
+    {% assign research_notes = site.categories['research-notes'] %}
+    {% for note in research_notes %}
+      <article class="note-card{% if forloop.first %} note-card--lead{% endif %}">
+        <div class="note-card__meta">
+          <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%d %B %Y" }}</time>
+          <span>{{ note.note_topic | default: "Microbial ecology" }}</span>
+          {% if note.paper_highlight %}<small>{{ note.paper_highlight }}</small>{% endif %}
+        </div>
+        <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
+        <p>{{ note.summary | default: note.description }}</p>
+        <a class="academic-text-link" href="{{ note.url }}">Read the note <span aria-hidden="true">→</span></a>
+      </article>
+    {% endfor %}
   </section>
 
   <aside class="notes-invitation">
     <p class="academic-label">A living notebook</p>
-    <p>Future notes will explore microbiome analysis, reproducible workflows, ecological interpretation, and lessons from building bioinformatic tools.</p>
+    <p>This collection will continue to connect microbiome analysis, reproducible workflows, ecological interpretation, and lessons from building bioinformatic tools.</p>
   </aside>
 </div>

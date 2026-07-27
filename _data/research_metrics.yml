@@ -1,0 +1,61 @@
+snapshot_date: "25 July 2026"
+source_name: "OpenAlex"
+source_url: "https://openalex.org/A5040438681"
+summary:
+  - label: "Indexed works"
+    value: 23
+  - label: "Citations"
+    value: 246
+  - label: "h-index"
+    value: 9
+  - label: "i10-index"
+    value: 9
+open_access:
+  value: 18
+  total: 23
+  percentage: 78
+output_by_year:
+  - year: 2018
+    works: 2
+    width: 29
+  - year: 2021
+    works: 1
+    width: 14
+  - year: 2022
+    works: 3
+    width: 43
+  - year: 2024
+    works: 7
+    width: 100
+  - year: 2025
+    works: 4
+    width: 57
+  - year: 2026
+    works: 6
+    width: 86
+most_cited:
+  - short_title: "PGPR–rhizosphere interplay"
+    title: "The interplay between the inoculation of plant growth-promoting rhizobacteria and the rhizosphere microbiome and their impact on plant phenotype"
+    citations: 64
+    width: 100
+    doi: "10.1016/j.micres.2024.127706"
+  - short_title: "PGPg_finder"
+    title: "PGPg_finder: a comprehensive and user-friendly pipeline for identifying plant growth-promoting genes"
+    citations: 43
+    width: 67
+    doi: "10.1016/j.rhisph.2024.100905"
+  - short_title: "Tropical soda-lake gradients"
+    title: "Bacterial communities along environmental gradients in tropical soda lakes"
+    citations: 29
+    width: 45
+    doi: "10.1007/s00248-022-02086-6"
+  - short_title: "Soda lakes & greenhouse gases"
+    title: "The role of microbial communities in biogeochemical cycles and greenhouse gas emissions within tropical soda lakes"
+    citations: 21
+    width: 33
+    doi: "10.1016/j.scitotenv.2024.174646"
+  - short_title: "Bacterial lifestyles in soda lakes"
+    title: "Disentangling the lifestyle of bacterial communities in tropical soda lakes"
+    citations: 18
+    width: 28
+    doi: "10.1038/s41598-022-12046-2"

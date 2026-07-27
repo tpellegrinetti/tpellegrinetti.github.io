@@ -1,0 +1,240 @@
+- year: 2026
+  type: "Opinion · Open access"
+  title: "Rethinking metagenome-assembled genome completeness: are we truly recovering complete genomes?"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Molligan, J., Mendes, L.W., Pedrinho, A., &amp; Pérez-López, E."
+  venue: "<em>Frontiers in Microbiology</em>, 17, 1884628."
+  doi: "10.3389/fmicb.2026.1884628"
+  featured: true
+  note_url: "/research-notes/beyond-mag-completeness/"
+
+- year: 2026
+  type: "Preprint · Genome-resolved metagenomics"
+  title: "Genome-resolved metagenomics reveals conserved, flexible and emerging symbioses across global leafhoppers"
+  authors: "Molligan, J., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>bioRxiv</em>."
+  doi: "10.64898/2026.05.20.726650"
+
+- year: 2026
+  type: "Research article · Open access"
+  title: "Bacterial inoculation drives microbiome-mediated resistance to a soil-borne pathogen in wheat"
+  authors: "Nishisaka, C.S., Quevedo, H.D., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>npj Biofilms and Microbiomes</em>."
+  doi: "10.1038/s41522-026-01021-8"
+
+- year: 2026
+  type: "Review · Open access"
+  title: "Can the leafhopper microbiome unlock new strategies for its control?"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Santos, A.A., Molligan, J., &amp; Pérez-López, E."
+  venue: "<em>Journal of Economic Entomology</em>, toag166."
+  doi: "10.1093/jee/toag166"
+
+- year: 2026
+  type: "Research article"
+  title: "Genomic basis of plant growth promotion by psychrotolerant bacteria isolated from Antarctic soils"
+  authors: "Pedrinho, A., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>World Journal of Microbiology and Biotechnology</em>."
+  doi: "10.1007/s11274-026-04994-y"
+
+- year: 2026
+  type: "Research article · Open access"
+  title: "Genotype-dependent stability and specialization of arbuscular mycorrhizal fungal communities under drought in common bean"
+  authors: "Barbosa, M.C., <strong>Pellegrinetti, T.A.</strong>, Cunha, I.C.M., et al."
+  venue: "<em>Frontiers in Plant Science</em>, 17, 1786322."
+  doi: "10.3389/fpls.2026.1786322"
+
+- year: 2026
+  type: "Perspective · Open access"
+  title: "Integrating plant microbiome for resilient agriculture and a sustainable environment"
+  authors: "Pedrinho, A., Mendes, L.W., <strong>Pellegrinetti, T.A.</strong>, Araujo, A.S.F., Pereira, A.P.A., &amp; Singh, B.K."
+  venue: "<em>Plant and Soil</em>."
+  doi: "10.1007/s11104-026-08578-5"
+
+- year: 2026
+  type: "Research article · Comparative genomics"
+  title: "Pseudogenization of the chaperonin system in ‘Candidatus Phytoplasma pruni’ revealed by genome sequencing and comparative genomics"
+  authors: "Molligan, J., <strong>Pellegrinetti, T.A.</strong>, Pérez-López, E., et al."
+  venue: "<em>Microbial Genomics</em>."
+  doi: "10.1099/mgen.0.001748"
+
+- year: 2026
+  type: "Research article · Environmental microbiology"
+  title: "Exploring archaeal adaptations and ecosystem roles in tropical soda lake sediments"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Trends in Environmental Microbiology</em>, 100080."
+  doi: "10.1016/j.temicr.2026.100080"
+
+- year: 2026
+  type: "Genome resource · Open access"
+  title: "Draft genome sequence of MBMR7, a Bacillus altitudinis phage recovered from the maize rhizosphere"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Microbiology Resource Announcements</em>."
+  doi: "10.1128/mra.01461-25"
+
+- year: 2025
+  type: "Research article · Open access"
+  title: "Genetic and biochemical insights into terpene biosynthesis by rhizosphere bacteria"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Frontiers in Microbiology</em>, 16, 1582103."
+  doi: "10.3389/fmicb.2025.1582103"
+
+- year: 2025
+  type: "Research article"
+  title: "Maize rhizosphere bacterial community responds distinctly to nitrogen and phosphorus fertilizers"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Brazilian Journal of Microbiology</em>."
+  doi: "10.1007/s42770-025-01695-w"
+
+- year: 2025
+  type: "Research article"
+  title: "Functional adaptations of the rhizosphere microbiome for drought-tolerance promotion in common bean"
+  authors: "da Silva, A.V.R., Cunha, I.C.M., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Plant Stress</em>, 100860."
+  doi: "10.1016/j.stress.2025.100860"
+  featured: true
+  note_url: "/research-notes/drought-tolerance-belowground/"
+
+- year: 2025
+  type: "Genome resource"
+  title: "Metagenome-assembled bacterial genomes from long accurate reads associated with Capilliphycus salinus ALCB114379"
+  authors: "Passos, G.S., <strong>Pellegrinetti, T.A.</strong>, &amp; Fiore, M.F."
+  venue: "<em>Microbiology Resource Announcements</em>, e00807-24."
+  doi: "10.1128/mra.00807-24"
+
+- year: 2025
+  type: "Research article"
+  title: "Co-inoculation with Bacillus thuringiensis RZ2MS9 and rhizobia improves soybean development and modulates soil functional diversity"
+  authors: "Fonseca de Souza, L., Oliveira, H.G., <strong>Pellegrinetti, T.A.</strong>, Mendes, L.W., et al."
+  venue: "<em>FEMS Microbiology Ecology</em>, 101(2), fiaf013."
+  doi: "10.1093/femsec/fiaf013"
+
+- year: 2025
+  type: "Research article"
+  title: "Plant–soil microbiome feedback under post-pasture tropical ecotone forest regeneration"
+  authors: "Mendes, L.W., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Applied Soil Ecology</em>, 106381."
+  doi: "10.1016/j.apsoil.2025.106381"
+
+- year: 2025
+  type: "Preprint · Phytoplasma genomics"
+  title: "‘Candidatus Phytoplasma zeae’: genome-informed evidence from maize-associated phytoplasmas"
+  authors: "Molligan, J., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>bioRxiv</em>."
+  doi: "10.1101/2025.08.28.671991"
+
+- year: 2025
+  type: "Preprint · Soil microbiome"
+  title: "Native tree species in silvopastoral systems outperform eucalyptus in enhancing soil health"
+  authors: "Pedrinho, A., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>SSRN</em>."
+  doi: "10.2139/ssrn.5195852"
+
+- year: 2024
+  type: "Research article"
+  title: "Differential effects of organic wastes on soil bacterial communities and crop development"
+  authors: "Pedrinho, A., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Applied Soil Ecology</em>, 105715."
+  doi: "10.1016/j.apsoil.2024.105715"
+
+- year: 2024
+  type: "Genome resource · Open access"
+  title: "Draft genome sequence of Bacillus stercoris isolated from Amazonian Dark Earth"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Cunha, I.C.M., et al."
+  venue: "<em>Microbiology Resource Announcements</em>, e01072-23."
+  doi: "10.1128/mra.01072-23"
+
+- year: 2024
+  type: "Research article · Environmental microbiology"
+  title: "The role of microbial communities in biogeochemical cycles and greenhouse gas emissions within tropical soda lakes"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Cotta, S.R., Feitosa, Y.B., et al."
+  venue: "<em>Science of the Total Environment</em>, 947, 174646."
+  doi: "10.1016/j.scitotenv.2024.174646"
+  featured: true
+  note_url: "/research-notes/soda-lakes-microbial-climate-signals/"
+
+- year: 2024
+  type: "Genome resource · Open access"
+  title: "Bacterial genomes recovered from litter associated with Amazonian Dark Earth"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Microbiology Resource Announcements</em>, e00422-24."
+  doi: "10.1128/mra.00422-24"
+
+- year: 2024
+  type: "Software · Research article"
+  title: "PGPg_finder: a comprehensive and user-friendly pipeline for identifying plant growth-promoting genes in genomic and metagenomic data"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Monteiro, G.G.T.N., Lemos, L.N., Santos, R.A.C., Barros, A.G., &amp; Mendes, L.W."
+  venue: "<em>Rhizosphere</em>, 30, 100905."
+  doi: "10.1016/j.rhisph.2024.100905"
+  featured: true
+  note_url: "/research-notes/reading-plant-growth-promotion-from-sequence/"
+
+- year: 2024
+  type: "Research article"
+  title: "The interplay between the inoculation of plant growth-promoting rhizobacteria and the rhizosphere microbiome and their impact on plant phenotype"
+  authors: "Cunha, I.C.M., da Silva, A.V.R., Boleta, E.H.M., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Microbiological Research</em>, 283, 127706."
+  doi: "10.1016/j.micres.2024.127706"
+  featured: true
+  note_url: "/research-notes/inoculants-enter-an-ecosystem/"
+
+- year: 2024
+  type: "Research article"
+  title: "Genomic insights of Fictibacillus terranigra sp. nov., a versatile metabolic bacterium from Amazonian Dark Earths"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Cunha, I.C.M., Chaves, M.G., et al."
+  venue: "<em>Brazilian Journal of Microbiology</em>, 55, 1543–1555."
+  doi: "10.1007/s42770-024-01268-3"
+
+- year: 2024
+  type: "Preprint · Environmental chemistry"
+  title: "Arsenic bioconcentration in tropical soda lakes: microbial and environmental controls"
+  authors: "Feitosa, Y.B., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>SSRN</em>."
+  doi: "10.2139/ssrn.5000361"
+
+- year: 2023
+  type: "Research article · Open access"
+  title: "Extended soil surface drying triggered by subsurface drip irrigation decouples carbon and nitrogen cycles and alters microbiome composition"
+  authors: "Moreira, R.S., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Frontiers in Soil Science</em>, 3, 1267685."
+  doi: "10.3389/fsoil.2023.1267685"
+
+- year: 2023
+  type: "Genome resource · Open access"
+  title: "Draft genome sequences of representative strains isolated from Amazonian Dark Earth"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Cunha, I.C.M., Chaves, M.G., et al."
+  venue: "<em>Microbiology Resource Announcements</em>, 12(11), e00574-23."
+  doi: "10.1128/mra.00574-23"
+
+- year: 2023
+  type: "Research article"
+  title: "Bioaccumulation and speciation of arsenic in plankton from tropical soda lakes"
+  authors: "Feitosa, Y.B., <strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Science of the Total Environment</em>, 165189."
+  doi: "10.1016/j.scitotenv.2023.165189"
+
+- year: 2023
+  type: "Research article"
+  title: "Bacterial communities along environmental gradients in tropical soda lakes"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, Cotta, S.R., Sarmento, H., et al."
+  venue: "<em>Microbial Ecology</em>, 85(3), 892–903."
+  doi: "10.1007/s00248-022-02086-6"
+
+- year: 2022
+  type: "Research article · Open access"
+  title: "Disentangling the lifestyle of bacterial communities in tropical soda lakes"
+  authors: "Cotta, S.R., <strong>Pellegrinetti, T.A.</strong>, Andreote, A.P.D., et al."
+  venue: "<em>Scientific Reports</em>, 12, 7939."
+  doi: "10.1038/s41598-022-12046-2"
+
+- year: 2021
+  type: "Research article"
+  title: "Phylogenomic analysis of Anabaenopsis species and their adaptations to soda lakes"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>International Journal of Systematic and Evolutionary Microbiology</em>, 71."
+  doi: "10.1099/ijsem.0.004648"
+
+- year: 2018
+  type: "Research article"
+  title: "Stable carbon isotope composition of commercial shoyu products"
+  authors: "<strong>Pellegrinetti, T.A.</strong>, et al."
+  venue: "<em>Journal of Food Composition and Analysis</em>."
+  doi: "10.1016/j.jfca.2018.04.001"
