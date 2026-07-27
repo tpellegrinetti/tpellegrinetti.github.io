@@ -11,7 +11,7 @@ layout: default
     <div class="academic-note__visual" role="img" aria-label="Microbial genomes, metagenomic sequences, and bioinformatics networks"></div>
 
     <header class="academic-note__header">
-      <p class="academic-label">Research note · Genome-resolved metagenomics</p>
+      <p class="academic-label">Research note · {{ page.note_topic | default: "Microbial ecology" }}</p>
       <h1 itemprop="headline">{{ page.title }}</h1>
       <p class="academic-note__deck" itemprop="description">{{ page.description }}</p>
       <div class="academic-note__meta">

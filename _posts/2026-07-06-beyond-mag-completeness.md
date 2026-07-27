@@ -15,6 +15,9 @@ share: false
 related: false
 paper_url: "https://doi.org/10.3389/fmicb.2026.1884628"
 paper_label: "Based on our 2026 opinion paper"
+note_topic: "Genome-resolved metagenomics"
+summary: "A high-quality MAG can satisfy conventional thresholds while still underrepresenting mobile, repetitive, and adaptive regions. A practical guide to interpreting the score without overreading it."
+paper_highlight: "2026 perspective"
 ---
 
 Genome-resolved metagenomics has transformed microbial ecology. Instead of describing a community only through marker genes or aggregate functions, we can reconstruct genomes directly from environmental sequencing data and ask which organisms carry which capacities.
