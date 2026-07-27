@@ -43,6 +43,23 @@ PGPg_finder brings more than 800 plant growth-promoting traits into one curated 
 
 The pipeline accepts both assembled sequences and workflows that begin from raw data. That matters because plant microbiome projects operate at different resolutions: an isolate genome can reveal the repertoire of one strain, whereas a metagenome describes the collective potential of a community.
 
+## From sequence files to an interpretable profile
+
+The apparent simplicity of a final table hides several analytical decisions. Raw reads first need quality control so that adapters, low-quality bases, and possible contaminants do not become false annotations. Depending on the question, reads can be analysed directly or assembled into longer contigs. Gene prediction then identifies candidate coding regions, and similarity searches connect those regions to curated reference functions.
+
+PGPg_finder coordinates these steps and returns a profile that can be compared across organisms or samples. The result is not merely a list of hits. Traits are grouped by biological process, which makes it possible to see whether a sample contains scattered individual markers or a broader functional repertoire.
+
+This distinction matters. One detected gene associated with phosphorus metabolism is different from a coordinated set of genes that supports a specific biochemical route. Likewise, finding stress-response functions across many taxa suggests a different ecological pattern from finding them in a single reconstructed genome.
+
+The appropriate unit of analysis depends on the study:
+
+- **isolated strains** support a direct link between a genetic repertoire and a cultivable organism;
+- **metagenome-assembled genomes** connect traits to populations that may not yet be cultured;
+- **whole-community metagenomes** describe collective functional potential;
+- **metatranscriptomes** reveal which parts of that potential are being transcribed at the sampled moment.
+
+These levels are complementary, but they should not be treated as interchangeable. A community-level signal cannot always be assigned to one organism, while the genome of one promising strain cannot represent the ecological behaviour of an entire rhizosphere.
+
 ## What a pipeline changes
 
 Automation is not only about speed. A reproducible workflow makes the same criteria available across samples, projects, and research groups. It records which databases and thresholds were used, reduces ad hoc decisions, and makes comparisons easier to audit.
@@ -50,6 +67,16 @@ Automation is not only about speed. A reproducible workflow makes the same crite
 In the original study, we tested PGPg_finder with five rhizobacterial strains and with metagenomes from Amazon forest and pasture soils. The resulting profiles recovered lineage-specific functions in the isolates and differences in plant-associated functional potential between environments.
 
 Those results illustrate a useful change in scale. A strain can be described as a candidate inoculant; a soil community can be compared across land uses; and both can be interpreted through a common functional vocabulary.
+
+## Comparison requires a thoughtful experimental design
+
+A functional profile becomes informative through comparison. Forest and pasture soils may differ in vegetation, pH, nutrient inputs, moisture, and land-use history. If those factors are not considered during sampling and statistical analysis, a difference in annotated traits can be real but incorrectly attributed.
+
+Replication is therefore as important as annotation. Biological replicates show whether a pattern is consistent within an environment, while technical quality controls reveal whether sequencing depth or assembly quality is driving the result. Normalization is also necessary because a sample with more sequence data will tend to produce more detected genes even when its biological composition is unchanged.
+
+Taxonomy adds another layer. An enriched function may reflect a change in the abundance of organisms that already carry it, a change in the gene content of closely related populations, or both. Combining functional profiles with taxonomic and genome-resolved information helps distinguish these possibilities.
+
+For longitudinal or treatment experiments, timing matters as well. Root-associated communities change as the plant develops, and transcriptional responses can occur much faster than changes in community composition. A single sampling point is a snapshot; repeated observations can reveal whether a functional response is transient, cumulative, or stable.
 
 <div class="article-comparison" role="group" aria-label="Two levels of interpretation with PGPg_finder">
   <div>
@@ -72,11 +99,23 @@ The best use of a functional screen is therefore directional. It can prioritize 
 
 This distinction also protects against a common form of overinterpretation: equating a familiar annotation with an ecological role. Genes are reused across contexts, reference databases are incomplete, and many plant-associated effects emerge from interactions rather than from a single marker.
 
+## Reading negative results carefully
+
+The absence of a detected trait also needs interpretation. It may represent a genuine biological absence, but it can also result from limited sequencing depth, fragmented assembly, an incomplete reference database, or a gene that has diverged beyond the chosen similarity threshold.
+
+This is especially relevant in environmental microbiomes, where many lineages remain poorly represented by cultured references. A conservative search reduces false positives but may miss distant homologues. A permissive search recovers more candidates but increases the need for manual validation and domain-level inspection.
+
+For that reason, “not detected” is usually more precise than “absent.” Confidence increases when coverage is high, assemblies are well supported, neighbouring genes form a plausible pathway, and independent annotation strategies converge on the same interpretation.
+
 ## From catalogues to experiments
 
 A good bioinformatics tool reduces a large search space without pretending to eliminate uncertainty. PGPg_finder narrows millions of sequences into a structured set of candidate mechanisms. The researcher still decides which mechanisms are plausible in the environmental context and which experiment could distinguish among them.
 
 That is the deeper value of scientific software in microbiome research. It does not replace biological reasoning. It gives that reasoning a reproducible starting point.
+
+The next step is often iterative. A computational screen suggests a function; an experiment tests it; the result then refines the annotation rules or identifies a missing biological category. As more strains and environments are characterized, reference resources can become less biased toward a small set of well-studied organisms.
+
+In this sense, PGPg_finder is both an analytical tool and a framework for asking better questions. It helps researchers move from “which genes are present?” to “which mechanisms deserve experimental attention, in which organisms, and under which environmental conditions?”
 
 ---
 
